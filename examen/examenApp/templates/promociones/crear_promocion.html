@@ -1,0 +1,14 @@
+{% extends 'principal.html' %}
+
+{% block title %}Crear Promoción{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1>Crear Promoción</h1>
+    <form method="post" class="needs-validation" enctype="multipart/form-data" novalidate>
+        {% csrf_token %}
+        {{ formulario.as_p }}
+        <button type="submit" class="btn btn-primary">Crear</button>
+    </form>
+</div>
+{% endblock %}
