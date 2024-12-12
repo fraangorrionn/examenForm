@@ -8,7 +8,7 @@
     <p>¿Estás seguro de que deseas eliminar la promoción "{{ promocion.nombre }}"?</p>
     <form method="post">
         {% csrf_token %}
-        <button type="submit" class="btn btn-danger">Sí, eliminar</button>
+        <button type="submit" class="btn btn-danger">Si, eliminar</button>
         <a href="{% url 'lista_promociones' %}" class="btn btn-secondary">Cancelar</a>
     </form>
 </div>

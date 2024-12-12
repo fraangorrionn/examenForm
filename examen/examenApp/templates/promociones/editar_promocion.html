@@ -8,7 +8,7 @@
     <form method="post" class="needs-validation" enctype="multipart/form-data" novalidate>
         {% csrf_token %}
         {{ formulario.as_p }}
-        <button type="submit" class="btn btn-success">Actualizar</button>
+        <button type="submit" class="btn btn-success">actualizar</button>
     </form>
     <a href="{% url 'lista_promociones' %}" class="btn btn-secondary mt-3">Volver al listado</a>
 </div>
