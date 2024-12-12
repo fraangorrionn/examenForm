@@ -53,6 +53,7 @@ def buscar_promociones(request):
     fecha_inicio = request.GET.get('fecha_inicio', '')
     fecha_fin = request.GET.get('fecha_fin', '')
     descuento_min = request.GET.get('descuento_min', '')
+    estado = request.GET.get('estado', '')
 
     promociones = Promocion.objects.all()
 
@@ -66,6 +67,8 @@ def buscar_promociones(request):
         promociones = promociones.filter(fecha_fin__lte=fecha_fin)
     if descuento_min:
         promociones = promociones.filter(descuento__gte=descuento_min)
+    if estado:
+        promociones = promociones.filter(estado=estado)
 
     return render(request, 'promociones/buscar_promociones.html', {
         'promociones': promociones,
@@ -73,6 +76,7 @@ def buscar_promociones(request):
         'fecha_inicio': fecha_inicio,
         'fecha_fin': fecha_fin,
         'descuento_min': descuento_min,
+        'estado': estado,
     })
 
 # Errores

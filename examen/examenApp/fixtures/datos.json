@@ -1,0 +1,978 @@
+[
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add producto",
+        "content_type": 7,
+        "codename": "add_producto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change producto",
+        "content_type": 7,
+        "codename": "change_producto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete producto",
+        "content_type": 7,
+        "codename": "delete_producto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view producto",
+        "content_type": 7,
+        "codename": "view_producto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add usuario",
+        "content_type": 8,
+        "codename": "add_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change usuario",
+        "content_type": 8,
+        "codename": "change_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete usuario",
+        "content_type": 8,
+        "codename": "delete_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view usuario",
+        "content_type": 8,
+        "codename": "view_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add promocion",
+        "content_type": 9,
+        "codename": "add_promocion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change promocion",
+        "content_type": 9,
+        "codename": "change_promocion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete promocion",
+        "content_type": 9,
+        "codename": "delete_promocion"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view promocion",
+        "content_type": 9,
+        "codename": "view_promocion"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "examenApp",
+        "model": "producto"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "examenApp",
+        "model": "usuario"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "examenApp",
+        "model": "promocion"
+    }
+},
+{
+    "model": "examenApp.usuario",
+    "pk": 1,
+    "fields": {
+        "nombre": "Environmental cold Congress lay. Across six campaign let door play organization.",
+        "edad": -23481
+    }
+},
+{
+    "model": "examenApp.usuario",
+    "pk": 2,
+    "fields": {
+        "nombre": "Fall these that business. Often resource community foot single. Year word raise majority really.",
+        "edad": 1915
+    }
+},
+{
+    "model": "examenApp.usuario",
+    "pk": 3,
+    "fields": {
+        "nombre": "Production foreign year these blood. Go spring million.\nAnswer TV firm of.",
+        "edad": -27398
+    }
+},
+{
+    "model": "examenApp.usuario",
+    "pk": 4,
+    "fields": {
+        "nombre": "Their she grow between interesting tree. Knowledge analysis line produce full.",
+        "edad": -31850
+    }
+},
+{
+    "model": "examenApp.usuario",
+    "pk": 5,
+    "fields": {
+        "nombre": "Near meet foreign care size away its. Home Democrat boy ask.",
+        "edad": -16165
+    }
+},
+{
+    "model": "examenApp.usuario",
+    "pk": 6,
+    "fields": {
+        "nombre": "Page for until degree apply. Tell senior reach glass approach full sort.",
+        "edad": 5567
+    }
+},
+{
+    "model": "examenApp.usuario",
+    "pk": 7,
+    "fields": {
+        "nombre": "If court care resource take southern difference. Particular reduce chair law.",
+        "edad": 25363
+    }
+},
+{
+    "model": "examenApp.usuario",
+    "pk": 8,
+    "fields": {
+        "nombre": "Get dark pull energy life policy. Describe edge pretty pick else school already.",
+        "edad": 29003
+    }
+},
+{
+    "model": "examenApp.usuario",
+    "pk": 9,
+    "fields": {
+        "nombre": "Push forget manage. Politics move herself picture see. Number somebody hit local.",
+        "edad": -11106
+    }
+},
+{
+    "model": "examenApp.usuario",
+    "pk": 10,
+    "fields": {
+        "nombre": "Senior building ten report high employee.\nDevelopment future include.",
+        "edad": -3160
+    }
+},
+{
+    "model": "examenApp.usuario",
+    "pk": 11,
+    "fields": {
+        "nombre": "Government safe capital with early exist once. Like challenge them find.",
+        "edad": 27295
+    }
+},
+{
+    "model": "examenApp.usuario",
+    "pk": 12,
+    "fields": {
+        "nombre": "Especially main model author hard job let. Job laugh prevent current responsibility view certainly.",
+        "edad": -9112
+    }
+},
+{
+    "model": "examenApp.usuario",
+    "pk": 13,
+    "fields": {
+        "nombre": "Impact arrive method area those price morning.",
+        "edad": -24832
+    }
+},
+{
+    "model": "examenApp.usuario",
+    "pk": 14,
+    "fields": {
+        "nombre": "Air staff until information possible. Cover learn soldier crime size staff.",
+        "edad": -7687
+    }
+},
+{
+    "model": "examenApp.usuario",
+    "pk": 15,
+    "fields": {
+        "nombre": "Network approach man begin again. Simply major lose stuff.",
+        "edad": 27654
+    }
+},
+{
+    "model": "examenApp.usuario",
+    "pk": 16,
+    "fields": {
+        "nombre": "Build thing color Mrs cut glass. Less view standard. Smile card entire would nature way.",
+        "edad": 21300
+    }
+},
+{
+    "model": "examenApp.usuario",
+    "pk": 17,
+    "fields": {
+        "nombre": "Great simple agreement possible box down alone. Though ask close scene.",
+        "edad": -27891
+    }
+},
+{
+    "model": "examenApp.usuario",
+    "pk": 18,
+    "fields": {
+        "nombre": "Clear happy under. Question maintain instead.",
+        "edad": 16937
+    }
+},
+{
+    "model": "examenApp.usuario",
+    "pk": 19,
+    "fields": {
+        "nombre": "Forward leader night two computer. Pm indicate back shoulder onto suffer range.",
+        "edad": 24635
+    }
+},
+{
+    "model": "examenApp.usuario",
+    "pk": 20,
+    "fields": {
+        "nombre": "Window return news say machine really rich air. College gun near international.",
+        "edad": 27412
+    }
+},
+{
+    "model": "examenApp.producto",
+    "pk": 1,
+    "fields": {
+        "nombre": "His little send operation return. Outside might from them. Receive quite eye.",
+        "puede_tener_promociones": true
+    }
+},
+{
+    "model": "examenApp.producto",
+    "pk": 2,
+    "fields": {
+        "nombre": "Garden another western news. Teach administration toward sign. Item live although fly science.",
+        "puede_tener_promociones": true
+    }
+},
+{
+    "model": "examenApp.producto",
+    "pk": 3,
+    "fields": {
+        "nombre": "Woman message operation where. Sort approach deal her meet strategy better.",
+        "puede_tener_promociones": true
+    }
+},
+{
+    "model": "examenApp.producto",
+    "pk": 4,
+    "fields": {
+        "nombre": "Size agency small Republican marriage subject. Often PM instead society. Bank effort evening kid.",
+        "puede_tener_promociones": false
+    }
+},
+{
+    "model": "examenApp.producto",
+    "pk": 5,
+    "fields": {
+        "nombre": "Drop firm rock night. Around their later sort huge safe.",
+        "puede_tener_promociones": true
+    }
+},
+{
+    "model": "examenApp.producto",
+    "pk": 6,
+    "fields": {
+        "nombre": "Trial lead think tree. Friend pick describe child enjoy. Watch expect degree market campaign.",
+        "puede_tener_promociones": true
+    }
+},
+{
+    "model": "examenApp.producto",
+    "pk": 7,
+    "fields": {
+        "nombre": "Degree significant under skill. Yes food method vote foreign until.",
+        "puede_tener_promociones": false
+    }
+},
+{
+    "model": "examenApp.producto",
+    "pk": 8,
+    "fields": {
+        "nombre": "Total try white yet total author. Nor no amount year region up. She ten life.",
+        "puede_tener_promociones": false
+    }
+},
+{
+    "model": "examenApp.producto",
+    "pk": 9,
+    "fields": {
+        "nombre": "Set build Mr certainly.",
+        "puede_tener_promociones": false
+    }
+},
+{
+    "model": "examenApp.producto",
+    "pk": 10,
+    "fields": {
+        "nombre": "Happy rich policy. Floor concern be much organization under.",
+        "puede_tener_promociones": true
+    }
+},
+{
+    "model": "examenApp.producto",
+    "pk": 11,
+    "fields": {
+        "nombre": "Score just parent. Foot others serious they.",
+        "puede_tener_promociones": false
+    }
+},
+{
+    "model": "examenApp.producto",
+    "pk": 12,
+    "fields": {
+        "nombre": "Stock first light company theory. Section run take.",
+        "puede_tener_promociones": true
+    }
+},
+{
+    "model": "examenApp.producto",
+    "pk": 13,
+    "fields": {
+        "nombre": "Rich be morning media put. Pretty prepare top message able serve.",
+        "puede_tener_promociones": false
+    }
+},
+{
+    "model": "examenApp.producto",
+    "pk": 14,
+    "fields": {
+        "nombre": "Market final four fall add way dark. Media production thousand.",
+        "puede_tener_promociones": false
+    }
+},
+{
+    "model": "examenApp.producto",
+    "pk": 15,
+    "fields": {
+        "nombre": "Through strategy bag quickly tonight. Sort century a interesting condition memory alone.",
+        "puede_tener_promociones": false
+    }
+},
+{
+    "model": "examenApp.producto",
+    "pk": 16,
+    "fields": {
+        "nombre": "Believe later account ability Democrat push. Theory resource letter. Begin best the Mrs necessary.",
+        "puede_tener_promociones": true
+    }
+},
+{
+    "model": "examenApp.producto",
+    "pk": 17,
+    "fields": {
+        "nombre": "Quite first magazine form would like staff.",
+        "puede_tener_promociones": false
+    }
+},
+{
+    "model": "examenApp.producto",
+    "pk": 18,
+    "fields": {
+        "nombre": "Bank everyone know whose care tonight. Lead likely source opportunity.",
+        "puede_tener_promociones": true
+    }
+},
+{
+    "model": "examenApp.producto",
+    "pk": 19,
+    "fields": {
+        "nombre": "Book candidate sure college voice somebody bad. Building accept magazine term design.",
+        "puede_tener_promociones": true
+    }
+},
+{
+    "model": "examenApp.producto",
+    "pk": 20,
+    "fields": {
+        "nombre": "Turn smile throw light age American open. Third none after article box.",
+        "puede_tener_promociones": false
+    }
+},
+{
+    "model": "examenApp.promocion",
+    "pk": 1,
+    "fields": {
+        "nombre": "Model certain him. Because same notice available will. Chance this style I field dark air.",
+        "descripcion": "Question character with guess assume occur land. Stop speech but popular man career. Knowledge still",
+        "productos": 4,
+        "usuarios": 16,
+        "descuento": -14032,
+        "fecha_fin": "1975-07-17",
+        "estado": "activo"
+    }
+},
+{
+    "model": "examenApp.promocion",
+    "pk": 2,
+    "fields": {
+        "nombre": "Room produce sit officer third our. How behind year third. Series couple expert mouth fall parent.",
+        "descripcion": "Bit quality opportunity reveal bag. Every lay exist crime painting. Would drop federal fine governme",
+        "productos": 18,
+        "usuarios": 15,
+        "descuento": 8950,
+        "fecha_fin": "2006-01-13",
+        "estado": "activo"
+    }
+},
+{
+    "model": "examenApp.promocion",
+    "pk": 3,
+    "fields": {
+        "nombre": "Not sit then. Town new easy coach morning certainly among. Exist we everybody low.",
+        "descripcion": "Play ability claim. Senior need last common entire.\nLose matter student material surface night. Hous",
+        "productos": 18,
+        "usuarios": 10,
+        "descuento": -24337,
+        "fecha_fin": "2021-10-20",
+        "estado": "activo"
+    }
+},
+{
+    "model": "examenApp.promocion",
+    "pk": 4,
+    "fields": {
+        "nombre": "Understand leader time skin.",
+        "descripcion": "Able wait economic two kid so. Order husband one professor.\nAir most rock employee interest beyond. ",
+        "productos": 13,
+        "usuarios": 19,
+        "descuento": 491,
+        "fecha_fin": "1991-05-24",
+        "estado": "activo"
+    }
+},
+{
+    "model": "examenApp.promocion",
+    "pk": 5,
+    "fields": {
+        "nombre": "Thank film reflect color. Kind fund at condition young its.",
+        "descripcion": "Different blue camera prove civil technology. Budget pass fight television whom operation.",
+        "productos": 12,
+        "usuarios": 9,
+        "descuento": 2439,
+        "fecha_fin": "2001-01-23",
+        "estado": "activo"
+    }
+},
+{
+    "model": "examenApp.promocion",
+    "pk": 6,
+    "fields": {
+        "nombre": "Bar sense performance one protect administration. Now democratic wife interest despite glass.",
+        "descripcion": "Number government firm. Deep cell environment building western thing. Adult little able common south",
+        "productos": 9,
+        "usuarios": 20,
+        "descuento": 2004,
+        "fecha_fin": "1972-04-12",
+        "estado": "activo"
+    }
+},
+{
+    "model": "examenApp.promocion",
+    "pk": 7,
+    "fields": {
+        "nombre": "Kitchen suffer majority happy. Crime network stay maintain near.",
+        "descripcion": "Forget nation executive about. Individual coach professor drug large.\nRock east try any good social.",
+        "productos": 6,
+        "usuarios": 10,
+        "descuento": -11790,
+        "fecha_fin": "2019-03-18",
+        "estado": "activo"
+    }
+},
+{
+    "model": "examenApp.promocion",
+    "pk": 8,
+    "fields": {
+        "nombre": "Data wait want number government. Glass sea rock see computer feel brother.",
+        "descripcion": "Activity to what bring deep ago. Read see develop century.\nChair cut without act person teach. Desig",
+        "productos": 11,
+        "usuarios": 8,
+        "descuento": -20708,
+        "fecha_fin": "1995-08-22",
+        "estado": "activo"
+    }
+},
+{
+    "model": "examenApp.promocion",
+    "pk": 9,
+    "fields": {
+        "nombre": "Ask health though carry trip contain down. Set water meeting high.",
+        "descripcion": "Public along near simply by loss. Travel wonder recent significant. Paper social before road school ",
+        "productos": 7,
+        "usuarios": 3,
+        "descuento": 2267,
+        "fecha_fin": "2019-02-21",
+        "estado": "activo"
+    }
+},
+{
+    "model": "examenApp.promocion",
+    "pk": 10,
+    "fields": {
+        "nombre": "Eye wife five section artist condition. Final threat character.",
+        "descripcion": "Fight cause example others. Including pass customer land fight pull answer.\nScene son American truth",
+        "productos": 5,
+        "usuarios": 8,
+        "descuento": 18864,
+        "fecha_fin": "1992-05-22",
+        "estado": "activo"
+    }
+},
+{
+    "model": "examenApp.promocion",
+    "pk": 11,
+    "fields": {
+        "nombre": "Save require thousand support his. Increase news Democrat. She company and of.",
+        "descripcion": "Glass western player air hand move. Already model charge us food list baby.\nSimple theory resource l",
+        "productos": 13,
+        "usuarios": 3,
+        "descuento": 7097,
+        "fecha_fin": "2008-11-08",
+        "estado": "activo"
+    }
+},
+{
+    "model": "examenApp.promocion",
+    "pk": 12,
+    "fields": {
+        "nombre": "After meeting information fund world. Vote these read statement never investment party.",
+        "descripcion": "Lawyer like impact. Action item build how some. Others score first head.",
+        "productos": 20,
+        "usuarios": 3,
+        "descuento": 18139,
+        "fecha_fin": "2014-06-14",
+        "estado": "activo"
+    }
+},
+{
+    "model": "examenApp.promocion",
+    "pk": 13,
+    "fields": {
+        "nombre": "Form population us improve always use could. Value activity maybe treatment.",
+        "descripcion": "Staff somebody sure least. Land investment car sing your whole.\nAnyone responsibility business exper",
+        "productos": 11,
+        "usuarios": 11,
+        "descuento": 8396,
+        "fecha_fin": "2015-07-29",
+        "estado": "activo"
+    }
+},
+{
+    "model": "examenApp.promocion",
+    "pk": 14,
+    "fields": {
+        "nombre": "Edge anyone resource teacher. Necessary evidence position.",
+        "descripcion": "Difficult too source reflect. Within fill either way ok state myself. Cause police responsibility ey",
+        "productos": 13,
+        "usuarios": 13,
+        "descuento": 1169,
+        "fecha_fin": "2021-09-11",
+        "estado": "activo"
+    }
+},
+{
+    "model": "examenApp.promocion",
+    "pk": 15,
+    "fields": {
+        "nombre": "Ten than truth yeah case analysis why. News ball baby across discussion approach Republican.",
+        "descripcion": "Rather audience factor. Bit would structure trip site prove.\nAccept improve girl ten.\nSing him becau",
+        "productos": 6,
+        "usuarios": 18,
+        "descuento": 22091,
+        "fecha_fin": "1992-02-01",
+        "estado": "activo"
+    }
+},
+{
+    "model": "examenApp.promocion",
+    "pk": 16,
+    "fields": {
+        "nombre": "Field goal choose federal. Weight eye social where quickly let image care. Thing huge trouble fill.",
+        "descripcion": "Range clearly everyone level. Help never old majority. Glass direction require soon go.\nOption arriv",
+        "productos": 10,
+        "usuarios": 14,
+        "descuento": 21977,
+        "fecha_fin": "1983-01-30",
+        "estado": "activo"
+    }
+},
+{
+    "model": "examenApp.promocion",
+    "pk": 17,
+    "fields": {
+        "nombre": "Business contain wife suffer. Weight off message how. Public paper agent above explain above.",
+        "descripcion": "Find attack day hospital environment probably feel. Table by carry system sense high. Get might Repu",
+        "productos": 12,
+        "usuarios": 6,
+        "descuento": -17863,
+        "fecha_fin": "1981-12-07",
+        "estado": "activo"
+    }
+},
+{
+    "model": "examenApp.promocion",
+    "pk": 18,
+    "fields": {
+        "nombre": "Clear involve rule leg dream great. Tell still large others condition leg accept.",
+        "descripcion": "Risk business work poor inside discover. Letter race another free cell low grow.\nDegree home day mea",
+        "productos": 8,
+        "usuarios": 20,
+        "descuento": -28940,
+        "fecha_fin": "2018-05-06",
+        "estado": "activo"
+    }
+},
+{
+    "model": "examenApp.promocion",
+    "pk": 19,
+    "fields": {
+        "nombre": "Management responsibility cost pay. What behavior door yeah threat market.",
+        "descripcion": "Really certainly role painting prove kind. Although good later whether account hair.\nAvailable field",
+        "productos": 18,
+        "usuarios": 20,
+        "descuento": -10139,
+        "fecha_fin": "1980-09-06",
+        "estado": "activo"
+    }
+},
+{
+    "model": "examenApp.promocion",
+    "pk": 20,
+    "fields": {
+        "nombre": "But least trade movement. Put mouth represent president large. Staff know live once note join add.",
+        "descripcion": "Pretty maybe thank strong discuss financial. Air trouble movie stage sea. Stage analysis policy prov",
+        "productos": 17,
+        "usuarios": 19,
+        "descuento": 11893,
+        "fecha_fin": "2019-08-21",
+        "estado": "activo"
+    }
+}
+]
